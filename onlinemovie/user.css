@@ -1,0 +1,75 @@
+body{
+  font-family: sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure that the body takes up at least the full height of the viewport */
+
+}
+
+.navbar-text{
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar li{
+  padding: 0 40px;
+}
+.nav-item a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+
+}
+.nav-item a:hover{
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+.jumbotron{
+  position: inherit;
+  margin-top: 7%;
+
+}
+.jumbotron h1{
+  color: black;
+  font-weight: bold;
+}
+.container-fluid{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.7)),url(images/back.jpg);
+  height: 150vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+.navbar-brand img{
+  height: 80px;
+
+}
+
+.signupbutton{
+
+  text-align: center;
+}
+.row img{
+  height: 60px;
+  width: 60px;
+  margin-left: 40%;
+  margin-bottom: 20%;
+}
+.page-footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+.form-container {
+  margin-top: 7%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
